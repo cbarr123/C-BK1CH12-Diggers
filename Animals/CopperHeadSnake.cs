@@ -2,11 +2,11 @@ using System;
 
 namespace diggers
 {
-    public class CopperHead : ISlithering
+    public class CopperHead : IWalking
     {
-        public void Slither()
+        public void Walk()
         {
-            Console.WriteLine("The copper head snake is slithering");
+            Console.WriteLine("The copper head snake is slither walking");
         }
     }
 }

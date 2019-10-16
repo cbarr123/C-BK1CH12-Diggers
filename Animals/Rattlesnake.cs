@@ -2,11 +2,11 @@ using System;
 
 namespace diggers
 {
-    public class Rattlesnake : ISlithering
+    public class Rattlesnake : IWalking
     {
-        public void Slither()
+        public void Walk()
         {
-            Console.WriteLine("The rattlesnake is slithering");
+            Console.WriteLine("The rattlesnake is slither walking");
         }
     }
 }
