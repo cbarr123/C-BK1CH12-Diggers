@@ -7,6 +7,6 @@ namespace diggers
         {
             Console.WriteLine("The finch is flying");
         }
-        public int MaximumHeight{get;} = 80;
+        // public int MaximumHeight{get;} = 80;
     }
 }
